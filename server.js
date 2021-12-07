@@ -1,24 +1,20 @@
 const express = require('express');
-const path = require('path');
-
+const PORT = process.env.PORT || 3001;
 const app = express();
-
-
-const PORT = process.env.PORT || 3006;
-
+const path = require('path');
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//setup public folder client side
+// Public folder for clients
 app.use(express.static('public'));
 
-// api routes
-require('./routes/apiroutes')(app);
+// API route
+require('./routes/apiRoutes')(app);
 
-// html route
-require('./routes/index')(app);
+// HTML route
+require('./routes/htmlRoutes')(app);
 
-app.listen(PORT, function () {
-    console.log(`App listening on PORT: ${PORT}`);
-});
+app.listen(PORT, () =>
+  console.log(`App listening at http://localhost:${PORT} 🚀`)
+);

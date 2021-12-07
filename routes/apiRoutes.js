@@ -31,7 +31,7 @@ module.exports = (app) => {
             res.json('Error in posting new Note');
         }
     });
-//
+
     app.delete('/api/notes/:id', (req, res) => {
 
         const {id} = req.params;

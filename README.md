@@ -1,29 +1,33 @@
-# 11 Express.js: Note Taker
+# Note Taker
 
-## Your Task
+## Description
+  This is a note taker that allows the user to save and add notes.
+  https://github.com/pcyang57/Note-Taker
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#Tests)
+  * [Contributions](#Contributions)
+  * [Contact](#Contact)
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+## screenshots
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+  ![Note Taker Demo One](Assets/11-express-homework-demo-01.png?raw=true "Note Taker Demo 1")
+  ![Note Taker Demo Two](Assets/11-express-homework-demo-02.png?raw=true "Note Taker Demo 2")
 
-
-## User Story
-
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
-
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Installation 
+  Required dependencies to be installed for application functionality: npm i
+  ## Usage
+  
+  ## License
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ## Contributions
+  
+  ## Tests
+  For tests use the following commands: npm test
+  
+  ## Questions?
+  Contact me at:
+  GitHub: pcyang57
+  * E-mail: p.cyang57@gmail.com
